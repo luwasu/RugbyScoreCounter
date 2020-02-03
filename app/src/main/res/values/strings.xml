@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rugby Score Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="score">0</string>
+    <string name="score_3">+3 Points</string>
+    <string name="score_2">+2 Points</string>
+    <string name="score_1">Free Throw</string>
+    <string name="reset_button">Reset</string>
+</resources>
