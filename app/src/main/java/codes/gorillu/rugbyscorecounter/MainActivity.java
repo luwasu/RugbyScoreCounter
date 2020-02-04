@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Increase the score for the Team A by 3 points
+     * Increase the score for the Team A by 5 points
      */
     public void displayThreeTeamA(View v) {
-        scoreTeamA = scoreTeamA + 3;
+        scoreTeamA = scoreTeamA +5;
         displayForTeamA(scoreTeamA);
     }
 
@@ -40,19 +40,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for the Team A by 1 points
+     * Increase the score for the Team A by 3 points
      */
     public void displayFreeThrowTeamA(View v) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
     }
 
 
     /**
-     * Increase the score for the Team B by 3 points
+     * Increase the score for the Team B by 5 points
      */
     public void displayThreeTeamB(View v) {
-        scoreTeamB = scoreTeamB + 3;
+        scoreTeamB = scoreTeamB + 5;
         displayForTeamB(scoreTeamB);
     }
 
@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Increase the score for the Team B by 1 points
+     * Increase the score for the Team B by 3 points
      */
     public void displayFreeThrowTeamB(View v) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB = scoreTeamB + 3;
         displayForTeamB(scoreTeamB);
     }
 
