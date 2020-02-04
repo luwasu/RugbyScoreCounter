@@ -70,12 +70,21 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="displayFreeThrowTeamA"
                 android:paddingBottom="8dp"
                 android:text="@string/score_1"
+                android:textAllCaps="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="displayFreeThrowTeamA"
+                android:paddingBottom="8dp"
+                android:text="@string/score_4"
                 android:textAllCaps="true" />
 
 
@@ -141,9 +150,18 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="displayFreeThrowTeamB"
-
                 android:paddingBottom="8dp"
                 android:text="@string/score_1"
+                android:textAllCaps="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="displayFreeThrowTeamB"
+                android:paddingBottom="8dp"
+                android:text="@string/score_4"
                 android:textAllCaps="true" />
 
         </LinearLayout>
