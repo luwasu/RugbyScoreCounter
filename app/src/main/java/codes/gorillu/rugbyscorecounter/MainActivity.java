@@ -186,6 +186,4 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
-
-
 }

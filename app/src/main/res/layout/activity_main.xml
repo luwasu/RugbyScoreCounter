@@ -5,9 +5,8 @@
     android:id="@+id/relative_layout_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="#b5aaa5"
-    android:alpha="40">
+    android:background="@drawable/rugbyimage"
+    android:fillViewport="true">
 
 
     <LinearLayout
@@ -39,7 +38,7 @@
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
                 android:text="@string/score"
@@ -108,7 +107,7 @@
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
                 android:text="@string/score"
@@ -171,7 +170,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/reset_score_button"
         android:layout_centerInParent="true"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="sans-serif-medium"
         android:text="00:00"
         android:textColor="@color/scoreTextColor"
         android:textSize="60sp" />

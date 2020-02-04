@@ -6,7 +6,7 @@
         <!-- Background color of buttons in the app -->
         <!-- colorButtonNormal will only work with API 22-->
         <item name="colorButtonNormal">#2c3553</item>
-        <!--        Text color -->
+        <!--       Primary Text color -->
         <item name="android:textColorPrimary">#deddda</item>
     </style>
 </resources>
